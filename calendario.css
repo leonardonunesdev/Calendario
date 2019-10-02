@@ -1,0 +1,19 @@
+#pnlTranslado a{
+    cursor: pointer;
+}
+
+.marcado{
+    background-color: green;
+}
+
+.controla-mes{
+    text-decoration: underline;
+}
+
+.controla-mes:hover{
+    color: green;
+}
+
+.opacidade-dia{
+    color: lightgray;
+}

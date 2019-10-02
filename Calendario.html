@@ -1,0 +1,33 @@
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="Calendario.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="calendario.css">
+</head>
+<body id="pnlTranslado">
+    <div>
+        <div>
+            <span id="anteriorMes"><a class="controla-mes" onclick="controlaMes(false)">Anterior</a></span>
+            <span id="calendarioMes"></span>
+            <span id="proximoMes"><a class="controla-mes" onclick="controlaMes(true)">Próximo</a></span>
+        </div>
+        <div>
+            <table id="calendario" border="1px solid black">
+                <thead>
+                    <tr>
+                        <th>Domingo</th>
+                        <th>Segunda</th>
+                        <th>Terça</th>
+                        <th>Quarta</th>
+                        <th>Quinta</th>
+                        <th>Sexta</th>
+                        <th>Sábado</th>
+                    </tr>
+                </thead>
+                <tbody id="calendarioBody">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
